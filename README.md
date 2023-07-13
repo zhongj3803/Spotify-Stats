@@ -17,7 +17,7 @@ The page will reload when you make changes.\
 
 ## Built with
 
-HTML
-CSS
-JavaScript
+HTML\
+CSS\
+JavaScript\
 ReactJS
