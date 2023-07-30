@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 body {
-  background-image:linear-gradient(180deg,  rgb(141, 91, 126), rgb(174, 223, 228));
+  background-image: linear-gradient(180deg, rgb(141, 91, 126), rgb(174, 223, 228));
   background-attachment: fixed;
   text-align: center;
   margin: 0;
@@ -14,27 +14,33 @@ body {
   font-family: "Quicksand";
   color: rgb(186, 246, 244);
 }
+
 .navbar {
   padding: 20px;
   display: flex;
   border-bottom: 1px solid #f2f2f2;
 }
+
 .navbar h1 {
   color: #35f151;
 }
+
 .navbar .links {
   margin-left: auto;
 }
+
 .navbar a {
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
 }
-.navbar a:hover, .navbar h1:hover{
+
+.navbar a:hover,
+.navbar h1:hover {
   color: #f1356d;
 }
 
-#enclosing{
+#enclosing {
   text-align: left;
   margin-left: auto;
   margin-right: auto;
@@ -43,17 +49,18 @@ body {
 }
 
 ul {
-  padding-left:0;
+  padding-left: 0;
   list-style-type: none;
 }
 
-th{
+th {
   font-size: large;
   font-weight: bold;
   padding-bottom: 7px;
 }
 
-th, td{
+th,
+td {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 2px;
@@ -92,15 +99,15 @@ span {
 
 @keyframes animate {
   0% {
-      transform: translate(-50%, -50%);
-      opacity: 1;
-      filter: hue-rotate(0);
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    filter: hue-rotate(0);
   }
 
   100% {
-      transform: translate(-50%, -5000%);
-      opacity: 0;
-      filter: hue-rotate(720deg);
+    transform: translate(-50%, -5000%);
+    opacity: 0;
+    filter: hue-rotate(720deg);
   }
 }
 

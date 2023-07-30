@@ -1,6 +1,5 @@
 const bodyEl = document.querySelector("body");
 
-// callAPI function that takes the base and exponent numbers as parameters
 export function callAPI() {
     // instantiate a headers object
     let myHeaders = new Headers();
@@ -15,7 +14,7 @@ export function callAPI() {
     const gD = rL - Math.floor(Math.random() * 128);
     const bD = rL - Math.floor(Math.random() * 128);
     bodyEl.style.backgroundImage = `linear-gradient(180deg, rgb(${rD}, ${gD}, ${bD}), rgb(${rL}, ${gL}, ${bL}))`;
-    let raw = JSON.stringify({ "color": `gradient with colors rgb(${rD}, ${gD}, ${bD}) and rgb(${rL}, ${gL}, ${bL})`});
+    let raw = JSON.stringify({ "color": `gradient with colors rgb(${rD}, ${gD}, ${bD}) and rgb(${rL}, ${gL}, ${bL})` });
     // create a JSON object with parameters for API call and store in a variable
     let requestOptions = {
         method: 'POST',
