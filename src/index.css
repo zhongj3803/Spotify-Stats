@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
+body {
+  background-image:linear-gradient(180deg,  rgb(125, 129, 161), rgb(236, 164, 133));
+  background-attachment: fixed;
+  text-align: center;
+  margin: 0;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
 * {
   margin: 0;
   font-family: "Quicksand";
@@ -23,15 +32,6 @@
 }
 .navbar a:hover, .navbar h1:hover{
   color: #f1356d;
-}
-
-body {
-  background-image:linear-gradient(180deg, rgb(128, 211, 220), rgb(199, 254, 220));
-  background-attachment: fixed;
-  text-align: center;
-  margin: 0;
-  height: 100vh;
-  overflow: hidden;
 }
 
 #enclosing{

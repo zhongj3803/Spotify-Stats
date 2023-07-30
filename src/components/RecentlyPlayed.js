@@ -1,6 +1,8 @@
 import moment from "moment";
 
 const RecentlyPlayed = ( {recents} ) => {
+    document.querySelector("body").style.overflowY = 'visible';
+    
     return (
         <div>
             <h3 className="description">Here are your recently played tracks!</h3>    
@@ -28,7 +30,6 @@ const RecentlyPlayed = ( {recents} ) => {
                         })}
             </table>
         </div>
-        
     );
   }
    

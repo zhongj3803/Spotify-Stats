@@ -1,4 +1,6 @@
 const TopArtists = ({ artists }) => {
+    document.querySelector("body").style.overflowY = 'visible';
+    
     return (
         <div>
             <h3 className="description">Here are your top artists</h3>
@@ -7,7 +9,7 @@ const TopArtists = ({ artists }) => {
                     return (<tbody key={item.href} className="topTable">
                         <tr className="tableElements">
                             <td className="topElements">{index + 1}</td>
-                            <td className="topElements"><img src={item.images[2].url} className="artistPics" /></td>
+                            <td className="topElements"><img src={item.images[2].url} className="artistPics" alt="artist pic"/></td>
                             <td className="topElements">{item.name}</td>
                         </tr>
                     </tbody>)

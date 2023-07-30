@@ -1,4 +1,6 @@
 const UserProfile = ({ profile }) => {
+    document.querySelector("body").style.overflowY = 'hidden';
+    
     return (
         <div>
             <h3 className="description">Your information</h3>
