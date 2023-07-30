@@ -1,4 +1,4 @@
-# Spotify-Stats
+# Spotify Stats
 Deployed on AWS Amplify! https://main.d3alb154qr6hrl.amplifyapp.com/
 
 ## Built with
