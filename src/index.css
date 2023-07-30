@@ -3,7 +3,7 @@
 * {
   margin: 0;
   font-family: "Quicksand";
-  color: #333;
+  color: rgb(186, 246, 244);
 }
 .navbar {
   padding: 20px;
@@ -29,6 +29,9 @@ body {
   background-image:linear-gradient(180deg, rgb(128, 211, 220), rgb(199, 254, 220));
   background-attachment: fixed;
   text-align: center;
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
 }
 
 #enclosing{
@@ -72,4 +75,44 @@ th, td{
 
 .tableElements:hover {
   background-color: rgb(184, 244, 253);
+}
+
+span {
+  background: url("https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_54-256.png");
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  pointer-events: none;
+  background-size: cover;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  animation: animate 6s linear;
+}
+
+@keyframes animate {
+  0% {
+      transform: translate(-50%, -50%);
+      opacity: 1;
+      filter: hue-rotate(0);
+  }
+
+  100% {
+      transform: translate(-50%, -5000%);
+      opacity: 0;
+      filter: hue-rotate(720deg);
+  }
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  font-size: large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+}
+
+button:hover {
+  transform: scale(1.1);
 }
