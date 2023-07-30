@@ -14,7 +14,7 @@ let profile = null;
 let topArtists = null;
 let topTracks = null;
 let recentlyPlayed = null;
-// aws link: https://main.d3alb154qr6hrl.amplifyapp.com/
+// aws link: https://main.d3alb154qr6hrl.amplifyapp.com/ localhost: http://localhost:3000/callback
 const redirect_uri = "https://main.d3alb154qr6hrl.amplifyapp.com/";
 
 if (!code) {
