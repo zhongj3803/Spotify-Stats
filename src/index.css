@@ -5,7 +5,7 @@ body {
   background-attachment: fixed;
   text-align: center;
   margin: 0;
-  height: 100vh;
+  /* height: 100vh; */
   overflow-x: hidden;
 }
 
@@ -84,7 +84,7 @@ td {
   background-color: rgb(113, 158, 164);
 }
 
-span {
+/* span {
   background: url("https://cdn4.iconfinder.com/data/icons/general-office/91/General_Office_54-256.png");
   width: 100px;
   height: 100px;
@@ -109,7 +109,7 @@ span {
     opacity: 0;
     filter: hue-rotate(720deg);
   }
-}
+} */
 
 button {
   border: none;

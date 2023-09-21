@@ -30,15 +30,15 @@ export function callAPI() {
 }
 
 
-bodyEl.addEventListener("mousemove", event => {
-    const spanEl = document.createElement("span");
-    spanEl.style.left = event.pageX + "px";
-    spanEl.style.top = event.pageY + "px";
-    const size = Math.random() * 25;
-    spanEl.style.width = size + "px";
-    spanEl.style.height = size + "px";
-    bodyEl.appendChild(spanEl);
-    setTimeout(() => {
-        spanEl.remove();
-    }, 3000)
-})
+// bodyEl.addEventListener("mousemove", event => {
+//     const spanEl = document.createElement("span");
+//     spanEl.style.left = event.pageX + "px";
+//     spanEl.style.top = event.pageY + "px";
+//     const size = Math.random() * 25;
+//     spanEl.style.width = size + "px";
+//     spanEl.style.height = size + "px";
+//     bodyEl.appendChild(spanEl);
+//     setTimeout(() => {
+//         spanEl.remove();
+//     }, 3000)
+// })
