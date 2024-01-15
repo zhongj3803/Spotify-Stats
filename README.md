@@ -2,6 +2,8 @@
 Deployed on AWS Amplify! https://main.d3alb154qr6hrl.amplifyapp.com/ 
 #### Note: the app won't display unless I specifically allowlist your Spotify email (this is a Spotify API thing unfortunately)
 
+But, here's still a video demo: https://drive.google.com/file/d/1dP3WYah6JwQqjnzOhSOs6fKOglyOiSlK/view?usp=drive_link
+
 ## Built with
 
 HTML\
